@@ -7,29 +7,15 @@
   display: flex;
   align-items: center;
   padding: 8px;
-  gap: 10px;
 
   .searchBar__btn-wrapper{
     display: flex;
     align-items: center;
 
+  }
 
-    .searchBar__btn {
-      padding: 0 20px;
-      height: 24px;
-
-      font-family: var(--font-family);
-      font-weight: 600;
-      font-size: 14px;
-      line-height: 157%;
-      color: var(--text-color);
-
-    }
-
-    .searchBar__btn:not(:last-child) {
-      border-right: 1px solid #DDDDDD;
-    }
-
+  .searchBar__btn:not(:last-child) {
+    border-right: 1px solid #DDDDDD;
   }
 
   .searchBar__btn-search {
@@ -40,5 +26,11 @@
     justify-content: center;
     align-items: center;
     background-color: var(--accent);
+
+    .icon{
+      width: 50%;
+      height: 50%;
+      padding-left: 1px;
+    }
   }
 }

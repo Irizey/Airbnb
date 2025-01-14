@@ -1,6 +1,7 @@
 import './style.scss';
 import Logo from "./logo/Logo.jsx";
 import SearchBar from "./searchBar/SearchBar.jsx";
+import UserMenu from "./userMenu/UserMenu.jsx";
 
 function Header() {
     return (
@@ -14,7 +15,9 @@ function Header() {
                     <div className="header__search">
                         <SearchBar/>
                     </div>
-                    <div className="header__user">USER MENU</div>
+                    <div className="header__user">
+                        <UserMenu/>
+                    </div>
                 </div>
             </div>
           </header>

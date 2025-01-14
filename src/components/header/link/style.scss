@@ -1,0 +1,19 @@
+.link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 0 20px;
+  height: 24px;
+
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 157%;
+  color: var(--text-color);
+
+  &--light {
+    font-weight: 400;
+    color: #717171;
+  }
+}
