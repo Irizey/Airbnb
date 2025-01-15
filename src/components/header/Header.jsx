@@ -2,10 +2,11 @@ import './style.scss';
 import Logo from "./logo/Logo.jsx";
 import SearchBar from "./searchBar/SearchBar.jsx";
 import UserMenu from "./userMenu/UserMenu.jsx";
+import Categories from "./categories/Categories.jsx";
 
 function Header() {
     return (
-        <>
+        <div className='header-wrapper'>
           <header className='header'>
             <div className="container">
                 <div className="header__row">
@@ -21,7 +22,8 @@ function Header() {
                 </div>
             </div>
           </header>
-        </>
+          <Categories/>
+        </div>
     )
 }
 

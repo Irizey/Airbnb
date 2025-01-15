@@ -1,0 +1,26 @@
+.categories {
+
+  .container {
+    width: 100%;
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 15px;
+
+    .categories__row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .categories__list {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+      }
+
+      .categories__filter {
+
+
+      }
+    }
+  }
+}
