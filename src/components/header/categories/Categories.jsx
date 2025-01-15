@@ -12,7 +12,7 @@ function Categories() {
                         <div className="categories__list">
 
                             {categoriesData.map((cat)=>{
-                                return <CategoryItem title={cat.title} img={cat.img}/>
+                                return <CategoryItem title={cat.title} img={cat.img} key={cat.id}/>
                             })}
                         </div>
                         <div className="categories__filter">
